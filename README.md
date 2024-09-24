@@ -34,9 +34,11 @@ Example Output
 After registering loan records, the system outputs the data in a formatted table like below:
 
 
-RecordID   CustomerID LoanType   IntRate  AmountLeft TimeLeft
-000001     AAA001     Auto       13.50    26         10
-000102     BBB002     Mortgage   6.95     157        18
+| RecordID | CustomerID | LoanType  | IntRate | AmountLeft | TimeLeft |
+|----------|------------|-----------|---------|------------|----------|
+| 000001   | AAA001     | Auto      | 13.50   | 26         | 10       |
+| 000102   | BBB002     | Mortgage  | 6.95    | 157        | 18       |
+
 
 How to Run
 Compile the code using any Java compiler or IDE.
